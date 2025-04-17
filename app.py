@@ -186,10 +186,10 @@ if menu == "Cadastrar":
             st.text_input("Número Atendimento", value=st.session_state.numero_atendimento,
                           disabled=True, key="perm_numero")
             risco           = st.text_input("Estratificação de Risco")
-            prev_drg        = st.number_input("Permanência Prevista DRG", min_value=0, value=0.0,
+            prev_drg        = st.number_input("Permanência Prevista DRG", min_value=0.0, value=0.0,
     step=0.1,
     format="%.2f")
-            real_dias       = st.number_input("Permanência Real", min_value=0,value=0.0,
+            real_dias       = st.number_input("Permanência Real", min_value=0.0,value=0.0,
     step=0.1,
     format="%.2f")
             data_alta       = st.date_input("Data de Alta")
