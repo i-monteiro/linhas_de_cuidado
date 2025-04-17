@@ -535,12 +535,12 @@ elif menu == "Editar":
             )
             prev_e = st.number_input(
                 "Permanência Prevista DRG",
-                value=int(rec_perm.get("permanenciaPrevistaDRG") or 0),
+                value=float(rec_perm.get("permanenciaPrevistaDRG") or 0),
                 min_value=0
             )
             real_e = st.number_input(
                 "Permanência Real",
-                value=int(rec_perm.get("permanenciaReal") or 0),
+                value=float(rec_perm.get("permanenciaReal") or 0),
                 min_value=0
             )
             alta_dt_base = datetime.fromisoformat(rec_perm["dataAlta"]) \
