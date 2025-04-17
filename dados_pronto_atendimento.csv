@@ -1,0 +1,3 @@
+hospital,linhaCuidado,numeroAtendimento,status,numeroAutorizacao,numeroDRG,nomePaciente,idade,cidPrincipal,dataHoraInternacaoPS,ECG,raioX,examePS,dataHoraSolicitacao,dataHoraExecucao,dataHoraLaudo,tempoExame
+Centro Médico,AVC,101010,Internado,2710100,15202020,Artur,22,Z000,2025-04-17T14:30:00,Não,Não,,2025-04-17T14:30:00,2025-04-17T14:30:00,2025-04-17T14:30:00,0.0
+HUC,Fratura de Fêmur,151414,Internado,202021515,1510154,Italo,26,Z000,2025-04-17T03:45:00,Sim,Sim,,2025-04-17T07:00:00,2025-04-17T11:00:00,2025-04-17T10:30:00,210.0

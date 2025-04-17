@@ -60,8 +60,8 @@ if menu == "Cadastrar":
             c1, c2, c3 = st.columns(3)
 
             with c1:
-                hospital          = st.text_input("Hospital")
-                linha_cuidado     = st.text_input("Linha de Cuidado")
+                hospital          = st.selectbox("Hospital", ["","Centro Médico", "Galileo", "HUC", "Irmãos Penteado", "Maternidade", "PUCC"])
+                linha_cuidado     = st.selectbox("Linha de Cuidado", ["","AVC", "Chron", "Fratura de Fêmur", "ICC"])
                 numero_atendimento= st.text_input("Número Atendimento")
                 status            = st.selectbox("Status", ["", "Internado", "Alta", "Óbito"])
 
