@@ -1,6 +1,6 @@
-echo ".venv/
+.venv/
 __pycache__/
 *.pyc
 .idea/
 .vscode/
-.env" > .gitignore
+.env
