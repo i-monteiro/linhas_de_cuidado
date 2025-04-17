@@ -1,6 +1,13 @@
-.venv
-__pycache__
-*.pyc
-.idea
-.vscode
+# ambientes virtuais
+.venv/
+
+# cache de Python
+__pycache__/
+*.py[cod]
+
+# IDEs / editores
+.idea/
+.vscode/
+
+# variáveis de ambiente
 .env
